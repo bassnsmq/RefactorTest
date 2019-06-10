@@ -16,8 +16,7 @@ public class GuardStmtRefactorTwo {
                 }
             }
         }
-        double t = result;
-        return t;
+        return result;
     }
 
     /**

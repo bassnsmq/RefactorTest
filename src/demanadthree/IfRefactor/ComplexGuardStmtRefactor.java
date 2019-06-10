@@ -1,7 +1,7 @@
 package demanadthree.IfRefactor;
 
 /**
- *  条件取反和卫语句复合
+ *  条件取反和去else 两种方式复合
  * */
 public class ComplexGuardStmtRefactor {
     private void test() {
@@ -32,6 +32,15 @@ public class ComplexGuardStmtRefactor {
             System.out.println("不在家");
         }
     }
+
+    /**
+     *  复杂去else
+     * */
+
+
+    /**
+     *  复杂条件取反
+     * */
 
     private boolean isEnd() {
         return false;

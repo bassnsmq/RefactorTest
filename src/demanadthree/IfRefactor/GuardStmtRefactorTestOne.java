@@ -1,7 +1,7 @@
 package demanadthree.IfRefactor;
 
 /**
- * 卫语句重构
+ * 卫语句重构 去else
  */
 public class GuardStmtRefactorTestOne {
     /**
@@ -26,47 +26,27 @@ public class GuardStmtRefactorTestOne {
     }
 
     /**
-     * 无返回值
-     */
-    private void test() {
-        if (isInHome()) {
+     *  无返回值
+     * */
+    private void test2(){
+        if(isInHome()){
             System.out.println("在家");
-            if (isEatBreakfast()) {
-                System.out.println("吃早餐");
-            } else {
-                if (isSleep()) {
-                    System.out.println("在睡觉");
-                } else {
-                    System.out.println("不在睡觉");
-                }
+            if(isSleep()){
+                System.out.println("在睡觉");
+            }else{
+                System.out.println("不知道在干嘛");
             }
-        } else if (isInCompany()) {
+        }else if(isInCompany()){
             System.out.println("在公司");
-            if (isWork()) {
+            if(isWork()){
                 System.out.println("在工作");
-            } else if (isToChatWith()) {
-                System.out.println("在聊天");
-            } else {
-                System.out.println("开小差");
+            }else{
+                System.out.println("在开小差");
             }
-        } else {
-            if (isInPart()) {
-                System.out.println("在公园");
-            } else if (isInCar()) {
-                System.out.println("在车上");
-                if (isDrink()) {
-                    System.out.println("喝了酒");
-                } else {
-                    System.out.println("没喝酒");
-                }
-            }
+        }else{
+            System.out.println("不知道在哪");
         }
     }
-
-
-
-
-
 
 
     private boolean isDrink() {

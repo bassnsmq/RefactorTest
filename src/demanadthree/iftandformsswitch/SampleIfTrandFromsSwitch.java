@@ -30,38 +30,6 @@ public class SampleIfTrandFromsSwitch {
         }else{
             System.out.println(100);
         }
-    }
 
-    /**
-     * 重构代码对比
-     * */
-    public void onceRefactorCode(int code){
-        switch (code) {
-            case 1:
-                //以打印语句模拟if中的语句 if code==1 run
-                System.out.println(code);
-                break;
-            case 2:
-                System.out.println(code);
-                break;
-            case 3:
-                System.out.println(code);
-                break;
-            case 4:
-                System.out.println(code);
-                break;
-            case 5:
-                System.out.println(code);
-                break;
-            case 6:
-                System.out.println(code);
-                break;
-            case 7:
-                System.out.println(code);
-                break;
-            default:
-                System.out.println(100);
-                break;
-        }
     }
 }

@@ -29,8 +29,17 @@ public class WhileTrandsFromFor {
         }
     }
 
+    private void test3(){
+        int i=0;
+        T:while(i<100){
+            i++;
+            run();
+        }
+
+    }
+
     private void run() {
-        
+
     }
 
 }

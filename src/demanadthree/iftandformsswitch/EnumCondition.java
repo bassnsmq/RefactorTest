@@ -34,6 +34,7 @@ public class EnumCondition {
         }else{
             System.out.println("null");
         }
+
     }
 
 
@@ -41,26 +42,6 @@ public class EnumCondition {
 
     /**
      * 外部变量内
-     * 正确
-     * public void test2() {
-     *         switch (red) {
-     *             case RED:
-     *                 System.out.println("red");
-     *                 break;
-     *             case BLUE:
-     *                 System.out.println("blue");
-     *                 break;
-     *             case BLANK:
-     *                 System.out.println("blank");
-     *                 break;
-     *             case YELLOW:
-     *                 System.out.println("yellow");
-     *                 break;
-     *             case GREEN:
-     *                 System.out.println("green");
-     *                 break;
-     *         }
-     *     }
      * */
 
     public void test2(){
@@ -75,6 +56,7 @@ public class EnumCondition {
         }else if(red == EnumT.Colour.GREEN){
             System.out.println("green");
         }
+
     }
 
 
@@ -82,29 +64,6 @@ public class EnumCondition {
 
     /**
      * 枚举类
-     * /*** 正确
-     *     public void test3() {
-     *         switch (enumClass) {
-     *             case DELETE:
-     *                 System.out.println("DELETE");
-     *                 break;
-     *             case UPDATE:
-     *                 System.out.println("UPDATE");
-     *                 break;
-     *             case ERROR:
-     *                 System.out.println("ERROR");
-     *                 break;
-     *             case IN:
-     *                 System.out.println("IN");
-     *                 break;
-     *             case OUT:
-     *                 System.out.println("OUT");
-     *                 break;
-     *             case QUT:
-     *                 System.out.println("QUT");
-     *                 break;
-     *         }
-     *     }
      * */
 
     public void test3(){
@@ -121,5 +80,6 @@ public class EnumCondition {
         }else if(enumClass==EnumClass.QUT){
             System.out.println("QUT");
         }
+
     }
 }

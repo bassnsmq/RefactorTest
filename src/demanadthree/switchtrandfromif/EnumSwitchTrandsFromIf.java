@@ -30,6 +30,8 @@ public class EnumSwitchTrandsFromIf {
             default:
                 System.out.println("none");
         }
+
+
     }
 
     private void test2() {
@@ -41,6 +43,7 @@ public class EnumSwitchTrandsFromIf {
                 System.out.println("Error");
                 break;
         }
+
     }
 
     private void test3() {
@@ -53,5 +56,6 @@ public class EnumSwitchTrandsFromIf {
                 break;
             case SUMMER:
         }
+
     }
 }

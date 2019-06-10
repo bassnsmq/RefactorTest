@@ -19,5 +19,6 @@ public class MoreCoditionTest {
         }else if(code==5||code==105){
             System.out.println("x");
         }
+
     }
 }

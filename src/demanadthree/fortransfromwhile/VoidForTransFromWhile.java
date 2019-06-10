@@ -7,9 +7,6 @@ public class VoidForTransFromWhile {
 
     private void test1() {
         for (int code; ; ) {
-            /**
-             * 模拟run
-             * */
             run();
         }
     }

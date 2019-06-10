@@ -10,6 +10,9 @@ import java.lang.reflect.Member;
 import java.util.zip.ZipEntry;
 
 public class CodeStyleRule {
+    /*
+     对于部分变量声明或赋值执行更正
+    * */
     private long aLong = 2l;
     private String args[] = new String[10];
     /**
